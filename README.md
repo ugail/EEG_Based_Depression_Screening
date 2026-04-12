@@ -1,4 +1,4 @@
-EEG-Based Depression Screening from 8-Channel Resting-State EEG (Subject-wise evaluation, compact baselines, connectivity ablation)
+EEG-Based Depression Screening from 8-Channel Resting-State EEG (Subject-wise evaluation, compact baselines, and connectivity ablation)
 by **Hassan Ugail, Newton Howard, Ali Ahmed Elmahmudi and Zied Mnasri
 **
 
