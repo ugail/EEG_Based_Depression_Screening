@@ -1,8 +1,10 @@
-EEG-Based Depression Screening from 8-Channel Resting-State EEG
-by Hassan Ugail, Newton Howard, Ali Ahmed Elmahmudi and Zied Mnasri
+EEG-Based Depression Screening from 8-Channel Resting-State EEG (Subject-wise evaluation, compact baselines, connectivity ablation)
+by **Hassan Ugail, Newton Howard, Ali Ahmed Elmahmudi and Zied Mnasri
+**
 
-Subject-wise evaluation, compact baselines, connectivity ablation
-This notebook consolidates the final experimental pipeline into one place.
+Motivation of this work: 
+A central problem in the related literature is that many EEG classification studies are evaluated in ways that are overly optimistic. Resting-state EEG is commonly segmented into multiple epochs per participant before feature extraction or model training. If train/test partitioning is then performed at the segment level rather than the participant level, segments from the same individual can appear in both sets. Because EEG contains substantial within-subject identity information, a classifier evaluated under this regime may learn person-specific patterns rather than disease-related signal, inflating apparent performance without reflecting true diagnostic generalisation. This issue has been explicitly identified as a barrier to clinical translation. Related concerns arise from dataset heterogeneity, including inconsistencies in diagnostic definition, medication exposure, and population composition, all of which complicate cross-study comparison and external validity. For depression-related EEG research, these are not minor technicalities. In fact, they directly affect whether the reported accuracy of a model can be interpreted as meaningful.
+
 
 What this notebook does:
 
