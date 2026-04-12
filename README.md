@@ -44,5 +44,3 @@ This notebook expects the processed outputs from the earlier preprocessing stage
 
 Note: "run_subjectwise_baselines_v1/processed/" is available at: https://drive.google.com/drive/folders/1K4J-jqfWtoG7njM21aOgc2Ct7QgYf4W9?usp=sharing
 
-Output philosophy:
-Only a small set of result files is written so analysis can be done elsewhere if needed.
