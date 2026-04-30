@@ -52,7 +52,7 @@ It loads the processed outputs from the preprocessing notebook and reproduces th
    - Reported for every metric in every experiment, alongside per-repeat standard deviation
    - Treated as descriptive uncertainty summaries rather than formal population-level bounds
 
-7. **Publication-ready outputs**
+7. **Outputs**
    - manuscript tables with both standard deviation and 95% CI columns
    - compact results CSV files
    - high-resolution figures with 95% CI error bars and a colour-blind-safe palette
@@ -77,7 +77,7 @@ https://drive.google.com/drive/folders/1K4J-jqfWtoG7njM21aOgc2Ct7QgYf4W9?usp=sha
 
 ## Output
 
-The notebook produces a compact set of files for downstream analysis and manuscript preparation.
+The notebook produces a compact set of files for downstream analysis.
 
 - `final_repeat_metrics.csv` — per-repeat per-model metrics
 - `final_summary.csv` — per-model mean, SD, and 95% bootstrap CI
@@ -95,7 +95,7 @@ The notebook produces a compact set of files for downstream analysis and manuscr
 
 After applying the class-aware composite key correction, the final analysis cohort comprised 56 valid unique subjects, of whom 31 belonged to the MDD group and 25 to the healthy-control group.
 
-## Headline result
+## Headline results
 
 Under repeated subject-wise holdout evaluation, the best-performing model is an Extra Trees classifier trained on eight-channel asymmetry-aware spectral features, achieving a mean balanced accuracy of 93.5% (95% bootstrap CI 89.6 to 96.8) and a mean AUROC of 98.6% (95% bootstrap CI 96.2 to 100.0). EEGNet and ShallowConvNet reach competitive but lower mean balanced accuracy under the same protocol.
 
