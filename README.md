@@ -102,3 +102,8 @@ Under repeated subject-wise holdout evaluation, the best-performing model is an 
 ## Reproducibility
 
 All experiments use seed 42, incremented across the 10 repeats. The full configuration, including the channel selection, connectivity bands, feature-selection grid, bootstrap parameters, and output paths, is captured in `manifest.json` written at the end of the run.
+
+## License
+
+The code in this repository is released under the MIT License.  
+
