@@ -12,6 +12,10 @@ A central problem in the related literature is that many EEG classification stud
 
 This notebook addresses these concerns through a strictly leakage-free, subject-wise evaluation pipeline tailored for compact eight-channel EEG configurations.
 
+
+<img width="3034" height="1474" alt="fig_baselines_8ch" src="https://github.com/user-attachments/assets/746c74d8-7e3a-42fa-a231-ab75cb3b0525" />
+
+
 ## What this notebook does
 
 It loads the processed outputs from the preprocessing notebook and reproduces the final experimental package.
