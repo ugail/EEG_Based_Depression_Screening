@@ -4,7 +4,8 @@
 
 By **Hassan Ugail, Newton Howard, Ali Ahmed Elmahmudi, and Zied Mnasri**
 
-Cite as: H Ugail, N Howard, A A Elmahmudi, and Z Mnasri, *Subject-Wise Depression Screening from 8-Channel Resting-State EEG using Asymmetry-Aware Spectral Features and Connectivity Ablation*, Sensors, To Appear, 2026.
+Cite as: Ugail, H.; Howard, N.; Elmahmudi, A.A.; Mnasri, Z. Subject-Wise Depression Screening from Eight-Channel Resting-State EEG Using Asymmetry-Aware Spectral Features and Connectivity Ablation. Sensors 2026, 26, 3065. https://doi.org/10.3390/s26103065
+
 
 ## Motivation
 
